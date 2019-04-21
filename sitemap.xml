@@ -3,18 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ductmkma.github.io/2019/04/about/</loc>
+    <loc>https://ductmkma.github.io/2019/04/bai-viet-dau-tien/</loc>
     <lastmod>2019-04-21T22:01:09+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://ductmkma.github.io/categories/</loc>
-    <lastmod>2019-04-21T22:01:09+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ductmkma.github.io/</loc>
     <lastmod>2019-04-21T22:01:09+07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -32,25 +26,19 @@
   </url>
   
   <url>
-    <loc>https://ductmkma.github.io/categories/category/</loc>
+    <loc>https://ductmkma.github.io/</loc>
     <lastmod>2019-04-21T22:01:09+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ductmkma.github.io/categories/subcategory/</loc>
+    <loc>https://ductmkma.github.io/categories/abc/</loc>
     <lastmod>2019-04-21T22:01:09+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ductmkma.github.io/tags/tag1/</loc>
-    <lastmod>2019-04-21T22:01:09+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ductmkma.github.io/tags/tag2/</loc>
+    <loc>https://ductmkma.github.io/tags/tags-abc/</loc>
     <lastmod>2019-04-21T22:01:09+07:00</lastmod>
     <priority>0</priority>
   </url>
