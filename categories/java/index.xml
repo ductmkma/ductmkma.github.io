@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Trần Minh Đức</title>
-    <link>https://ductmkma.github.io/</link>
-    <description>Recent content on Trần Minh Đức</description>
+    <title>java on Trần Minh Đức</title>
+    <link>https://ductmkma.github.io/categories/java/</link>
+    <description>Recent content in java on Trần Minh Đức</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi</language>
     <lastBuildDate>Sun, 21 Apr 2019 23:41:03 +0700</lastBuildDate>
     
-	<atom:link href="https://ductmkma.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ductmkma.github.io/categories/java/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
