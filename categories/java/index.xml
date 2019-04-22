@@ -59,9 +59,11 @@ Cuối cùng là in ra một cái hóa đơn trên màn hình dạng bảng như
 &lt;p&gt;Các bạn có thể in ra dạng đơn giản hơn. Vì ở đây mình tính thuế VAT các kiểu nên nó hơn nhiều thông tin ở tờ hóa đơn.
 &lt;img src=&#34;https://2.bp.blogspot.com/-A-0OOTdGe0g/WkOTYmvME4I/AAAAAAAABEY/yRLtJoZfCS8quIBkEjNzn7oS8UOdGcRiACEwYBhgL/s640/hoadon.PNG&#34; alt=&#34;alt text&#34; title=&#34;Anh-3&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;III. Phần báo cáo thống kê.&lt;/strong&gt;
-&lt;code&gt;Phần này chỉ làm được khi mình đã có dữ liệu trong file hoadon.txt. Và chỉ ông quản trị mới được phép xem :D&lt;/code&gt;
-&lt;img src=&#34;https://4.bp.blogspot.com/-mjqivjS4KrM/WkOVtCdNijI/AAAAAAAABEg/cNd2B1IhNJwQyYdMWz2IWrkM-wTN_k_BQCEwYBhgL/s640/hoadonfile.PNG&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;III. Phần báo cáo thống kê.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Phần này chỉ làm được khi mình đã có dữ liệu trong file hoadon.txt. Và chỉ ông quản trị mới được phép xem :D&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://4.bp.blogspot.com/-mjqivjS4KrM/WkOVtCdNijI/AAAAAAAABEg/cNd2B1IhNJwQyYdMWz2IWrkM-wTN_k_BQCEwYBhgL/s640/hoadonfile.PNG&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;1.&lt;code&gt;Thống kê theo ngày hoặc tháng&lt;/code&gt; thì chúng ta sẽ load file hoadon.txt lên. Căn cứ vào ngày bán được lưu trong file hoadon.txt thì lấy ra được tất cả các sản phẩm được bán đã đc lưu trong file đó và in ra thông tin các sản phẩm đã được mua.
 - Nhập ngày tháng cần thống kê.
@@ -74,7 +76,7 @@ Cái này như mình tìm kiếm qua cái ngày bán thôi mà :D&lt;/p&gt;
 &lt;p&gt;Các bạn làm phần nâng cao tham khảo thêm cách chương trình chạy ở dưới đây nha :D&lt;/p&gt;
 
 &lt;p&gt;Cảm ơn các bạn đã đọc bài viết, nếu thấy có ích hãy để lại comment nhận xét nhé :)
-&lt;iframe width=&#34;100%&#34; height=&#34;500&#34; src=&#34;https://www.youtube.com/embed/a5VeeJyfRmg&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+&lt;a href=&#34;http://www.youtube.com/watch?v=a5VeeJyfRmg&#34;&gt;&lt;img src=&#34;http://img.youtube.com/vi/a5VeeJyfRmg/0.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
