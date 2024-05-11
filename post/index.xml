@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on DucTM&#39;s Site</title>
+        <link>https://example.com/post/</link>
+        <description>Recent content in Posts on DucTM&#39;s Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>DucTM&#39;s Site</copyright>
+        <lastBuildDate>Sat, 11 May 2024 17:51:23 +0700</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>bài viết 2</title>
+        <link>https://example.com/p/b%C3%A0i-vi%E1%BA%BFt-2/</link>
+        <pubDate>Sat, 11 May 2024 17:51:23 +0700</pubDate>
+        
+        <guid>https://example.com/p/b%C3%A0i-vi%E1%BA%BFt-2/</guid>
+        <description>&lt;p&gt;bài viết 2&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>My First Post</title>
+        <link>https://example.com/p/my-first-post/</link>
+        <pubDate>Sat, 11 May 2024 17:24:55 +0700</pubDate>
+        
+        <guid>https://example.com/p/my-first-post/</guid>
+        <description>&lt;p&gt;heheh&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
