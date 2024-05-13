@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevOps on Trần Minh Đức</title><link>https://example.com/categories/devops/</link><description>Recent content in DevOps on Trần Minh Đức</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>ductranminh.com</copyright><lastBuildDate>Sun, 12 May 2024 11:06:46 +0700</lastBuildDate><atom:link href="https://example.com/categories/devops/index.xml" rel="self" type="application/rss+xml"/><item><title>Hướng dẫn cài đặt và thiết lập nginx trên Ubuntu</title><link>https://example.com/p/huong-dan-cai-dat-nginx-tren-ubuntu/</link><pubDate>Sun, 12 May 2024 11:06:46 +0700</pubDate><guid>https://example.com/p/huong-dan-cai-dat-nginx-tren-ubuntu/</guid><description>&lt;img src="https://example.com/p/huong-dan-cai-dat-nginx-tren-ubuntu/nginx-ubuntu-thumbnail.jpg" alt="Featured image of post Hướng dẫn cài đặt và thiết lập nginx trên Ubuntu" />&lt;p>Chào các bạn, mình là Đức Tờ Mờ đây !&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevOps on Trần Minh Đức</title><link>https://ductmkma.github.io/categories/devops/</link><description>Recent content in DevOps on Trần Minh Đức</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>ductranminh.com</copyright><lastBuildDate>Sun, 12 May 2024 11:06:46 +0700</lastBuildDate><atom:link href="https://ductmkma.github.io/categories/devops/index.xml" rel="self" type="application/rss+xml"/><item><title>Hướng dẫn cài đặt và thiết lập nginx trên Ubuntu</title><link>https://ductmkma.github.io/p/huong-dan-cai-dat-nginx-tren-ubuntu/</link><pubDate>Sun, 12 May 2024 11:06:46 +0700</pubDate><guid>https://ductmkma.github.io/p/huong-dan-cai-dat-nginx-tren-ubuntu/</guid><description>&lt;img src="https://ductmkma.github.io/p/huong-dan-cai-dat-nginx-tren-ubuntu/nginx-ubuntu-thumbnail.jpg" alt="Featured image of post Hướng dẫn cài đặt và thiết lập nginx trên Ubuntu" />&lt;p>Chào các bạn, mình là Đức Tờ Mờ đây !&lt;/p>
 &lt;p>Hôm nay có nhiều bạn thực tập hỏi mình về cách cài đặt và cấu hình nginx nên quyết định viết một bài hướng dẫn nhỏ để giúp các bạn cài đặt và thiết lập nginx trên Ubuntu. Cụ thể ở đây mình sử dụng Ubuntu 20.04 nhé !&lt;/p>
 &lt;h2 id="điều-kiện-tiên-quyết">Điều kiện tiên quyết
 &lt;/h2>&lt;p>Bạn cần phải có một tài khoản user với quyền non-root&lt;/p>
@@ -133,10 +133,10 @@
 &lt;/div>
 &lt;/div>&lt;p>Ở phần kiểm tra này, các bạn thấy máy chủ nginx xuất hiện thông báo: &lt;strong>active (running)&lt;/strong> là được nhé.&lt;/p>
 &lt;p>Bây giờ bạn có thể truy cập địa chỉ IP của máy chủ hoặc domain đã cấu hình DNS về IP của máy chủ để xem giao diện mặc định của nginx
-&lt;img src="https://example.com/p/huong-dan-cai-dat-nginx-tren-ubuntu/welcome-screen-e1450116630667.png"
+&lt;img src="https://ductmkma.github.io/p/huong-dan-cai-dat-nginx-tren-ubuntu/welcome-screen-e1450116630667.png"
 width="1058"
 height="431"
-srcset="https://example.com/p/huong-dan-cai-dat-nginx-tren-ubuntu/welcome-screen-e1450116630667_hub9ddf5d40f3e444685c6c68b9a3cd79d_43560_480x0_resize_box_3.png 480w, https://example.com/p/huong-dan-cai-dat-nginx-tren-ubuntu/welcome-screen-e1450116630667_hub9ddf5d40f3e444685c6c68b9a3cd79d_43560_1024x0_resize_box_3.png 1024w"
+srcset="https://ductmkma.github.io/p/huong-dan-cai-dat-nginx-tren-ubuntu/welcome-screen-e1450116630667_hub9ddf5d40f3e444685c6c68b9a3cd79d_43560_480x0_resize_box_3.png 480w, https://ductmkma.github.io/p/huong-dan-cai-dat-nginx-tren-ubuntu/welcome-screen-e1450116630667_hub9ddf5d40f3e444685c6c68b9a3cd79d_43560_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="Welcome nginx"
 class="gallery-image"
@@ -338,10 +338,10 @@ data-flex-basis="589px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>&lt;strong>Kết quả:&lt;/strong>
-&lt;img src="https://example.com/p/huong-dan-cai-dat-nginx-tren-ubuntu/nginx-success.png"
+&lt;img src="https://ductmkma.github.io/p/huong-dan-cai-dat-nginx-tren-ubuntu/nginx-success.png"
 width="791"
 height="63"
-srcset="https://example.com/p/huong-dan-cai-dat-nginx-tren-ubuntu/nginx-success_hua0c68fbf3779ab70e5a95e2ec212305c_7630_480x0_resize_box_3.png 480w, https://example.com/p/huong-dan-cai-dat-nginx-tren-ubuntu/nginx-success_hua0c68fbf3779ab70e5a95e2ec212305c_7630_1024x0_resize_box_3.png 1024w"
+srcset="https://ductmkma.github.io/p/huong-dan-cai-dat-nginx-tren-ubuntu/nginx-success_hua0c68fbf3779ab70e5a95e2ec212305c_7630_480x0_resize_box_3.png 480w, https://ductmkma.github.io/p/huong-dan-cai-dat-nginx-tren-ubuntu/nginx-success_hua0c68fbf3779ab70e5a95e2ec212305c_7630_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="Nginx success"
 class="gallery-image"
