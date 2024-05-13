@@ -1,1 +1,93 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web on Trần Minh Đức</title><link>https://example.com/categories/web/</link><description>Recent content in Web on Trần Minh Đức</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>ductranminh.com</copyright><atom:link href="https://example.com/categories/web/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web on Trần Minh Đức</title><link>https://example.com/categories/web/</link><description>Recent content in Web on Trần Minh Đức</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>ductranminh.com</copyright><lastBuildDate>Wed, 13 Dec 2023 11:20:25 +0700</lastBuildDate><atom:link href="https://example.com/categories/web/index.xml" rel="self" type="application/rss+xml"/><item><title>Tạo hiệu ứng tuyết rơi với đoạn CSS đơn giản</title><link>https://example.com/p/tao-hieu-ung-tuyet-roi-voi-doan-css-don-gian/</link><pubDate>Wed, 13 Dec 2023 11:20:25 +0700</pubDate><guid>https://example.com/p/tao-hieu-ung-tuyet-roi-voi-doan-css-don-gian/</guid><description>&lt;img src="https://example.com/p/tao-hieu-ung-tuyet-roi-voi-doan-css-don-gian/tao-hieu-ung-tuyet-roi-css-thumbnail.png" alt="Featured image of post Tạo hiệu ứng tuyết rơi với đoạn CSS đơn giản" />&lt;p>Hello các bạn, lại là mình Đức Tờ Mờ đây 😀&lt;/p>
+&lt;p>Mùa giáng sinh lại sắp tới, mình xin được chúc các bạn và gia đình có một mùa giáng sinh thật vui vẻ, hạnh phúc và an lành !&lt;/p>
+&lt;p>Ok, let’s go….Cùng mình xử lý hiệu ứng tuyết rơi nhé !&lt;/p>
+&lt;h2 id="chuẩn-bị-nguyên-liệu">Chuẩn bị nguyên liệu
+&lt;/h2>&lt;p>Ở bước này, bạn cần tải về 3 ảnh background sau đây hoặc có thể sử dụng trực tiếp link sau đây cũng được nhé.&lt;/p>
+&lt;p>Background 1: &lt;a class="link" href="b1.webp" >Download&lt;/a>&lt;/p>
+&lt;p>Background 2: &lt;a class="link" href="b2.webp" >Download&lt;/a>&lt;/p>
+&lt;p>Background 3: &lt;a class="link" href="b3.webp" >Download&lt;/a>&lt;/p>
+&lt;h2 id="xử-lý-css">Xử lý CSS
+&lt;/h2>&lt;p>Trong phần này, ý tưởng của chúng ta sẽ sử dụng thuộc tính &lt;strong>animation&lt;/strong> của CSS để tạo nên hiệu ứng.&lt;/p>
+&lt;p>Phần này mình sẽ show code trước và giải thích sau để các bạn có thể có góc nhìn tổng quan nhé.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">position&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">relative&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">after&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">content&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">display&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">block&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">position&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">absolute&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">z-index&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">top&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">left&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">right&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">bottom&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">pointer-events&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">none&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background-image&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nb">url&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;https://ductranminh.com/wp-content/uploads/2023/12/s1.webp&amp;#39;&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="nb">url&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;https://ductranminh.com/wp-content/uploads/2023/12/s2.webp&amp;#39;&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="nb">url&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;https://ductranminh.com/wp-content/uploads/2023/12/s3.webp&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">animation&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">snow&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="kt">s&lt;/span> &lt;span class="kc">linear&lt;/span> &lt;span class="kc">infinite&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">@&lt;/span>&lt;span class="k">keyframes&lt;/span> &lt;span class="nt">snow&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">0&lt;/span>&lt;span class="o">%&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="k">background-position&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">50&lt;/span>&lt;span class="o">%&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="k">background-position&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">500&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">500&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">100&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">200&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">-100&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">150&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">100&lt;/span>&lt;span class="o">%&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="k">background-position&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">500&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">1000&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">200&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">400&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">-100&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">300&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Trước tiên chúng ta chú ý phần &lt;strong>@keyframes&lt;/strong> để mình tạo một hiệu ứng có tên snow. Ý tưởng ở đây rất đơn giản, mình sẽ cho nó chạy từ 0% -&amp;gt; 100% kết hợp với mỗi đoạn % thì sẽ thay đổi vị trí của background bằng cách thiết lập background-position.&lt;/p>
+&lt;p>Sau khi đã tạo ra được hiệu ứng, mình sẽ thiết lập css cho thẻ body (nếu mình muốn áp dụng cho cả website, còn nếu bạn chỉ muốn hiệu ứng ở một section cục bộ nào đó thì có thể thay thế body thành div hoặc section class khác nhé).   &lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">animation&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">snow&lt;/span> &lt;span class="nt">10s&lt;/span> &lt;span class="nt">linear&lt;/span> &lt;span class="nt">infinite&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Đây là dòng code khiến hiệu ứng của mình chuyển động cụ thể:&lt;/p>
+&lt;ul>
+&lt;li>snow: tên của animation (mình định nghĩa ở @keyframes đó)&lt;/li>
+&lt;li>10s là khoảng thời gian hoàn thành 1 anomation (0-&amp;gt;100%)&lt;/li>
+&lt;li>linear: cách thể hiện hiệu ứng&lt;/li>
+&lt;li>infinite: Hiệu ứng chạy vô hạn số lần   &lt;/li>
+&lt;/ul>
+&lt;h2 id="kết-quả">Kết quả
+&lt;/h2>&lt;p>Cùng xem website demo của mình khi ở 2 chế độ Light &amp;amp; Dark Mode &lt;/p>
+&lt;p>&lt;img src="https://example.com/p/tao-hieu-ung-tuyet-roi-voi-doan-css-don-gian/snow-dark-mode.png"
+width="1024"
+height="592"
+srcset="https://example.com/p/tao-hieu-ung-tuyet-roi-voi-doan-css-don-gian/snow-dark-mode_hu568239cd47ec90630678f92d907d2c0e_425939_480x0_resize_box_3.png 480w, https://example.com/p/tao-hieu-ung-tuyet-roi-voi-doan-css-don-gian/snow-dark-mode_hu568239cd47ec90630678f92d907d2c0e_425939_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Snow Dark mode"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;p>Cảm ơn các bạn đã đọc bài. Chúc các bạn áp dụng thành công vào website của mình nhé !  &lt;/p></description></item></channel></rss>
